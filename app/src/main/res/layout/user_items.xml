@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/lst_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@color/colorPrimaryDark"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:id="@+id/l_uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+
+            />
+        <TextView
+
+            android:layout_below="@+id/l_uname"
+            android:id="@+id/lemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="speciality"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove"
+            android:layout_below="@id/lemail"
+            android:layout_alignParentEnd="true"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
